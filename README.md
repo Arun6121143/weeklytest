@@ -1,24 +1,15 @@
-# Custom Query
-
-## Framework and Language Used
--  SpringBoot Java and
-
+# Languages and Frameworks used:
+- Java and Springboot
 ## Controller
-- StudentController
-## Model
-- Student
-## Service 
-- StudentService
+- PostMapping
+- getMapping
+## Service
+- DeployService
 ## dao
-- StudentRepository
-## Postman(endpoinst)
-- addStudent(POST):- http://localhost:8080/addstudent
-- getbyage(GET):- http://localhost:8080/byAge/33
-- getstudents(GET):- http://localhost:8080/getstudents
-- getbyfirsname(GET):-http://localhost:8080/getbyfirstname/Arun
-- getbylastname(GET):-http://localhost:8080/getbyLastName/chauhan
-## DataBase Used
+- DeployRepository
+## Deploy(modelclass)
+## Database used:
 - MYSQL
-## Project Summary
-- In this project we are performing the operation using native Query and retriving the data from DataBase..
-
+## CRUD OPERATIONS
+- postMapping(done with the help of swagger)
+- getMapping(done with the help of swagger)
